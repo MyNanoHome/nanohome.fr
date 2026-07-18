@@ -142,7 +142,7 @@ export default function HomePage() {
                   <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
                 </svg>
               </a>
-              <a href="/contact" className="btn btn-outline">Demander un devis</a>
+              <a href="/contact" className="btn btn-outline">Nous contacter</a>
             </div>
           </div>
         </div>
