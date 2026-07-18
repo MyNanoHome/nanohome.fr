@@ -10,7 +10,6 @@ const OPTIONS = [
   { id: 'projecteur', name: 'Projecteur + écran JMGO', price: 500 },
   { id: 'store', name: 'Store latéral motorisé', price: 650 },
   { id: 'vmc', name: 'VMC double flux', price: 900 },
-  { id: 'terrasse', name: 'Terrasse bois extérieure (5 m²)', price: 400 },
 ];
 
 const BASE_PRICE = 15000;
