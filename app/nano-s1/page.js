@@ -9,7 +9,7 @@ export default function NanoS1Page() {
       <section className="hero-compact">
         <span className="section-label reveal visible">Nouveau</span>
         <h1 className="reveal visible reveal-delay-1">
-          Nano S1<br />Votre espace, dans votre jardin.
+          Nano S1<br />Un espace privé, dans votre jardin.
         </h1>
         <p className="reveal visible reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
           Un espace privé, design et fonctionnel pour le télétravail, la création ou la détente. Construction acier premium, livré et installé en France.
