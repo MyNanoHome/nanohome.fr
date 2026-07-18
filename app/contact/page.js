@@ -7,6 +7,8 @@ function ContactForm() {
   const searchParams = useSearchParams();
   const [message, setMessage] = useState('');
   const [subject, setSubject] = useState('');
+  const [sending, setSending] = useState(false);
+  const [sent, setSent] = useState(false);
 
   useEffect(() => {
     const config = searchParams.get('config');
@@ -22,10 +24,50 @@ function ContactForm() {
     }
   }, [searchParams]);
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setSending(true);
+    const form = e.target;
+    const data = {
+      name: form.name.value,
+      email: form.email.value,
+      phone: form.phone.value,
+      project: form.project.value,
+      message: form.message.value,
+    };
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (res.ok) setSent(true);
+      else alert('Erreur lors de l\'envoi. Veuillez réessayer.');
+    } catch {
+      alert('Erreur réseau. Veuillez réessayer.');
+    }
+    setSending(false);
+  };
+
+  if (sent) {
+    return (
+      <section className="section section-alt">
+        <div className="container-narrow" style={{ textAlign: 'center', padding: '60px 0' }}>
+          <div style={{ fontSize: '3rem', marginBottom: 16 }}>✅</div>
+          <h2>Message envoyé !</h2>
+          <p style={{ maxWidth: 400, margin: '12px auto 0' }}>
+            Merci ! Nous vous répondrons sous 48h à l&apos;adresse indiquée.
+          </p>
+          <a href="/" className="btn btn-outline" style={{ marginTop: 24 }}>Retour à l&apos;accueil</a>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="section section-alt">
       <div className="container-narrow">
-        <form className="contact-form" action="#">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-row">
             <div className="form-group reveal">
               <label htmlFor="name">Nom &amp; Prénom</label>
@@ -67,8 +109,8 @@ function ContactForm() {
           </div>
 
           <div className="reveal reveal-delay-3">
-            <button type="submit" className="btn btn-primary form-submit">
-              Envoyer le message
+            <button type="submit" className="btn btn-primary form-submit" disabled={sending}>
+              {sending ? 'Envoi en cours...' : 'Envoyer le message'}
               <i className="fa-solid fa-paper-plane" style={{ fontSize: '0.85em' }}></i>
             </button>
           </div>
