@@ -8,7 +8,6 @@ const OPTIONS = [
   { id: 'clim', name: 'Climatisation Midea 1.5P', price: 500 },
   { id: 'velux', name: 'Velux + store motorisé', price: 500 },
   { id: 'projecteur', name: 'Projecteur + écran JMGO', price: 500 },
-  { id: 'domotique', name: 'Système domotique vocale', price: 500 },
   { id: 'store', name: 'Store latéral motorisé', price: 650 },
   { id: 'vmc', name: 'VMC double flux', price: 900 },
   { id: 'terrasse', name: 'Terrasse bois extérieure (5 m²)', price: 400 },
