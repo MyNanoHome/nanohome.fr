@@ -123,8 +123,7 @@ export default function NanoS1Page() {
       <section className="cta-section section-dark">
         <div className="container" style={{ textAlign: 'center' }}>
           <span className="section-label reveal">Contact</span>
-          <h2 className="reveal reveal-delay-1">La Nano S1 vous intéresse ?</h2>
-          <p className="reveal reveal-delay-2">Recevez une documentation complète et un devis personnalisé sous 48h.</p>
+          <h2 className="reveal reveal-delay-1">La Nano S1 vous intéresse mais vous souhaitez avoir plus d'informations ?</h2>
           <div className="reveal reveal-delay-3">
             <a href="/contact" className="btn btn-white">
               Nous contacter
