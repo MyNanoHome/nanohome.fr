@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Nano S1 — Cabine de jardin premium | NANO HOME',
-  description: 'Découvrez la Nano S1, notre cabine de jardin premium disponible dès maintenant. Design acier, livrée en France à partir de 15 000 € TTC.',
+  title: 'Nos capsules — Cabines de jardin premium | NANO HOME',
+  description: 'Découvrez nos cabines de jardin premium NANO HOME. Design acier, livrées en France. Nano S1 disponible dès maintenant.',
 };
 
 export default function ProduitPage() {
@@ -8,12 +8,13 @@ export default function ProduitPage() {
     <>
       {/* ===== HERO ===== */}
       <section className="hero-compact">
-        <span className="section-label reveal visible">Notre produit</span>
+        <span className="section-label reveal visible">Nos capsules</span>
         <h1 className="reveal visible reveal-delay-1">
-          Nano S1<br />Votre espace, dans votre jardin.
+          Des espaces premium<br />pour votre jardin.
         </h1>
         <p className="reveal visible reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
-          Un espace privé, design et fonctionnel, livré clé en main dans votre jardin. Bureau, atelier, salon — à vous de choisir.
+          Des cabines design, livrées clé en main en France. Bureau, atelier,
+          salon — à vous de choisir votre espace.
         </p>
       </section>
 
@@ -48,7 +49,7 @@ export default function ProduitPage() {
         <div className="container">
           <div className="section-header" style={{ textAlign: 'center', marginBottom: 40 }}>
             <span className="section-label reveal">Galerie</span>
-            <h2 className="reveal reveal-delay-1">La Nano S1 en images</h2>
+            <h2 className="reveal reveal-delay-1">Découvrez la Nano S1</h2>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="reveal reveal-delay-2">
             <img src="/nanos1-02.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
