@@ -149,7 +149,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h4 style={{ marginBottom: 4 }}>Email</h4>
-              <p style={{ fontSize: '0.85rem' }}>bonjour@mynanohome.fr</p>
+              <p style={{ fontSize: '0.85rem' }}>contact@mynanohome.fr</p>
             </div>
             <div className="reveal reveal-delay-1" style={{ textAlign: 'center' }}>
               <div style={{ width: 56, height: 56, borderRadius: 16, background: 'var(--orange-glow)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: '1.3rem', color: 'var(--orange)' }}>
