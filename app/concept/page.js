@@ -140,8 +140,7 @@ export default function ConceptPage() {
           <span className="section-label reveal">Une question ?</span>
           <h2 className="reveal reveal-delay-1">On vous répond</h2>
           <p className="reveal reveal-delay-2">
-            Pas encore convaincu ? Posez-nous toutes vos questions,
-            on se fera un plaisir d&apos;y répondre.
+            Posez-nous toutes vos questions, on se fera un plaisir d&apos;y répondre.
           </p>
           <div className="reveal reveal-delay-3">
             <a href="/contact" className="btn btn-white">
