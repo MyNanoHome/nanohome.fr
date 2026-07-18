@@ -89,8 +89,8 @@ function ContactForm() {
               <select id="project" name="project">
                 <option value="">— Sélectionnez —</option>
                 <option value="jardin">Cabine de jardin</option>
-                <option value="studio">Studio / Bureau</option>
-                <option value="location">Investissement locatif</option>
+                <option value="bureau">Bureau</option>
+                <option value="maison">Maison</option>
                 <option value="autre">Autre</option>
               </select>
             </div>
