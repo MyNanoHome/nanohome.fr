@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Nos capsules — Cabines de jardin premium | NANO HOME',
-  description: 'Découvrez nos cabines de jardin premium NANO HOME. Design acier, livrées en France. Nano S1 disponible dès maintenant.',
+  title: 'Nos capsules — Espaces premium habitables | NANO HOME',
+  description: 'Découvrez nos capsules design NANO HOME pour vos terrains et jardins. Structure acier premium, livrées clé en main en France. Nano S1 disponible.',
 };
 
 export default function ProduitPage() {
@@ -10,11 +10,11 @@ export default function ProduitPage() {
       <section className="hero-compact">
         <span className="section-label reveal visible">Nos capsules</span>
         <h1 className="reveal visible reveal-delay-1">
-          Des espaces premium<br />pour votre jardin.
+          Des espaces premium<br />pour vos projets.
         </h1>
         <p className="reveal visible reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
-          Des cabines design, livrées clé en main en France. Bureau, atelier,
-          salon — à vous de choisir votre espace.
+          Des capsules design pour vos terrains et vos jardins, livrées clé en
+          main en France. Bureau, habitation, salon — à vous de choisir.
         </p>
       </section>
 
@@ -30,7 +30,7 @@ export default function ProduitPage() {
               </a>
               <div className="product-card-body">
                 <h3 style={{ margin: 0 }}><a href="/nano-s1" style={{ textDecoration: 'none', color: 'inherit' }}>Nano S1</a></h3>
-                <div className="product-subtitle">4.6 m² — Cabine de jardin</div>
+                <div className="product-subtitle">4.6 m² — Capsule habitable</div>
                 <p>Un espace privé design et fonctionnel pour le télétravail, la création ou la détente. Structure acier premium, isolation polyuréthane, double vitrage LOW-E.</p>
                 <div style={{ marginTop: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                   <span style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--orange)' }}>15 000 € TTC</span>
