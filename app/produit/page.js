@@ -14,7 +14,7 @@ export default function ProduitPage() {
         </h1>
         <p className="reveal visible reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
           Des capsules design pour vos terrains et vos jardins, livrées clé en
-          main en France. Bureau, habitation, salon — à vous de choisir.
+          main en France.
         </p>
       </section>
 
