@@ -154,15 +154,14 @@ export default function HomePage() {
       ============================== */}
       <section className="cta-section section-dark">
         <div className="container" style={{ textAlign: 'center' }}>
-          <span className="section-label reveal">Contact</span>
+          <span className="section-label reveal">Nos capsules</span>
           <h2 className="reveal reveal-delay-1">Prêt à franchir le pas ?</h2>
           <p className="reveal reveal-delay-2">
-            Discutons de votre projet — sans engagement. Nous vous guidons
-            de la réflexion à l&apos;installation.
+            Découvrez nos capsules design, livrées clé en main en France.
           </p>
           <div className="reveal reveal-delay-3">
-            <a href="/contact" className="btn btn-white">
-              Nous contacter
+            <a href="/produit" className="btn btn-white">
+              Découvrir nos capsules
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginTop: 1 }}>
                 <path d="M5 12h14"/>
                 <path d="M12 5l7 7-7 7"/>
