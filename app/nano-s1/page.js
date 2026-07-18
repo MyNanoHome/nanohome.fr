@@ -1,7 +1,6 @@
-export const metadata = {
-  title: 'Nano S1 — Cabine de jardin premium | NANO HOME',
-  description: 'Nano S1 : cabine de jardin premium design. Structure acier, isolation polyuréthane, livrée et installée en France à partir de 15 000 € TTC.',
-};
+import { metadata } from './metadata';
+export { metadata };
+import Configurator from './Configurator';
 
 export default function NanoS1Page() {
   return (
@@ -115,37 +114,18 @@ export default function NanoS1Page() {
         </div>
       </section>
 
-      {/* ===== OPTIONS ===== */}
-      <section className="section">
-        <div className="container" style={{ maxWidth: 600, margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <span className="section-label reveal">Personnalisation</span>
-            <h2 className="reveal reveal-delay-1">Options disponibles</h2>
-          </div>
-          <div className="reveal" style={{ background: 'var(--bg-card)', borderRadius: 12, padding: '24px 32px', border: '1px solid var(--border-light)' }}>
-            <OptionItem name="Isolation renforcée 120-150mm" price="+300 €" />
-            <OptionItem name="Triple vitrage 6+12+6+12+6 LOW-E" price="+300 €" />
-            <OptionItem name="Chauffage au sol graphene IPX7" price="+300 €" />
-            <OptionItem name="Climatisation Midea 1.5P" price="+500 €" />
-            <OptionItem name="Velux + store motorisé" price="+500 €" />
-            <OptionItem name="Projecteur + écran JMGO" price="+500 €" />
-            <OptionItem name="Terrasse bois extérieure" price="80 €/m²" />
-            <OptionItem name="Système domotique vocale" price="+500 €" />
-            <OptionItem name="VMC double flux" price="+900 €" />
-            <OptionItem name="Store latéral motorisé" price="+650 €" />
-          </div>
-        </div>
-      </section>
+      {/* ===== CONFIGURATEUR ===== */}
+      <Configurator />
 
       {/* ===== CTA ===== */}
       <section className="cta-section section-dark">
         <div className="container" style={{ textAlign: 'center' }}>
           <span className="section-label reveal">Contact</span>
           <h2 className="reveal reveal-delay-1">La Nano S1 vous intéresse ?</h2>
-          <p className="reveal reveal-delay-2">Recevez une documentation complète, des photos haute résolution et un devis personnalisé sous 48h.</p>
+          <p className="reveal reveal-delay-2">Recevez une documentation complète et un devis personnalisé sous 48h.</p>
           <div className="reveal reveal-delay-3">
             <a href="/contact" className="btn btn-white">
-              Demander un devis
+              Nous contacter
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginTop: 1 }}>
                 <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
               </svg>
@@ -166,18 +146,6 @@ function SpecRow({ label, value }) {
     }}>
       <span style={{ color: 'var(--text-tertiaire)' }}>{label}</span>
       <span style={{ fontWeight: 500 }}>{value}</span>
-    </div>
-  );
-}
-
-function OptionItem({ name, price }) {
-  return (
-    <div style={{
-      display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-      padding: '12px 0', borderBottom: '1px solid var(--border-light)'
-    }}>
-      <span>{name}</span>
-      <span style={{ fontWeight: 600, color: 'var(--orange)' }}>{price}</span>
     </div>
   );
 }
