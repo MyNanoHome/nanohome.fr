@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Nos capsules — NANO HOME',
-  description: 'Découvrez les capsules NANO HOME : des espaces modulaires design, livrés clé en main dans votre jardin.',
+  title: 'Nano S1 & capsules — NANO HOME',
+  description: 'Découvrez la Nano S1, notre cabine de jardin premium disponible dès maintenant, et les capsules NANO HOME à venir.',
 };
 
 export default function ProduitPage() {
@@ -22,6 +22,25 @@ export default function ProduitPage() {
       <section className="section">
         <div className="container">
           <div className="products-grid">
+            {/* Nano S1 — DISPONIBLE */}
+            <div className="product-card reveal">
+              <a href="/nano-s1" className="product-card-image" style={{ textDecoration: 'none', position: 'relative' }}>
+                <span className="coming-badge" style={{ background: 'var(--orange)', color: '#fff' }}>Disponible</span>
+                <img src="/nanos1-01.jpg" alt="Nano S1" style={{ width: '100%', display: 'block', borderRadius: 0 }} />
+              </a>
+              <div className="product-card-body">
+                <h3 style={{ margin: 0 }}><a href="/nano-s1" style={{ textDecoration: 'none', color: 'inherit' }}>Nano S1</a></h3>
+                <div className="product-subtitle">4.6 m² — Cabine de jardin</div>
+                <p>Un espace privé design et fonctionnel pour le télétravail, la création ou la détente. Structure acier premium.</p>
+                <div style={{ marginTop: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                  <span style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--orange)' }}>15 000 €</span>
+                  <a href="/nano-s1" className="btn btn-primary" style={{ padding: '6px 16px', fontSize: '0.85rem' }}>
+                    Voir <i className="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             {/* Solo */}
             <div className="product-card reveal">
               <div className="product-card-image">

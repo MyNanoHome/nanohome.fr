@@ -116,7 +116,40 @@ export default function HomePage() {
       </section>
 
       {/* ==============================
-          CAPSULES TEASER
+          NANO S1 — Produit disponible
+      ============================== */}
+      <section className="section section-alt">
+        <div className="container" style={{ textAlign: 'center' }}>
+          <span className="section-label reveal">Nouveau — Disponible</span>
+          <h2 className="reveal reveal-delay-1">Nano S1<br />Votre espace dans votre jardin</h2>
+          <p className="reveal reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto 40px' }}>
+            Un espace privé, design et fonctionnel pour le télétravail, la création ou la détente. Livré et installé en France.
+          </p>
+
+          <div className="reveal reveal-delay-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12, marginBottom: 32, maxWidth: 800, margin: '0 auto 32px' }}>
+            <img src="/nanos1-01.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-02.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-03.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+          </div>
+
+          <div className="reveal reveal-delay-3">
+            <div style={{ fontSize: '1.8rem', fontWeight: 700, color: 'var(--orange)', marginBottom: 8 }}>15 000 € TTC</div>
+            <div style={{ fontSize: '0.9rem', color: 'var(--text-tertiaire)', marginBottom: 24 }}>Livraison France incluse</div>
+            <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
+              <a href="/nano-s1" className="btn btn-primary">
+                Découvrir
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginTop: 1 }}>
+                  <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+              <a href="/contact" className="btn btn-outline">Demander un devis</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ==============================
+          AUTRES PRODUITS — À venir
       ============================== */}
       <section className="section">
         <div className="container" style={{ textAlign: 'center' }}>

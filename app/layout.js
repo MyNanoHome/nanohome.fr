@@ -132,6 +132,9 @@ export default function RootLayout({ children }) {
               <Link href="/" className={isActive('/') && pathname === '/' ? 'active' : ''}>
                 Accueil
               </Link>
+              <Link href="/nano-s1" className={isActive('/nano-s1') ? 'active' : ''}>
+                Nano S1
+              </Link>
               <Link href="/concept" className={isActive('/concept') ? 'active' : ''}>
                 Concept
               </Link>
@@ -155,6 +158,7 @@ export default function RootLayout({ children }) {
 
             <nav className={`nav-mobile ${menuOpen ? 'open' : ''}`}>
               <Link href="/" onClick={() => setMenuOpen(false)}>Accueil</Link>
+              <Link href="/nano-s1" onClick={() => setMenuOpen(false)}>Nano S1</Link>
               <Link href="/concept" onClick={() => setMenuOpen(false)}>Concept</Link>
               <Link href="/produit" onClick={() => setMenuOpen(false)}>Nos capsules</Link>
               <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
@@ -173,6 +177,7 @@ export default function RootLayout({ children }) {
             </div>
             <div className="footer-links">
               <Link href="/">Accueil</Link>
+              <Link href="/nano-s1">Nano S1</Link>
               <Link href="/concept">Concept</Link>
               <Link href="/produit">Nos capsules</Link>
               <Link href="/contact">Contact</Link>
