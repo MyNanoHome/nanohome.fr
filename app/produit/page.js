@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Nano S1 & capsules — NANO HOME',
-  description: 'Découvrez la Nano S1, notre cabine de jardin premium disponible dès maintenant, et les capsules NANO HOME à venir.',
+  title: 'Nano S1 — Cabine de jardin premium | NANO HOME',
+  description: 'Découvrez la Nano S1, notre cabine de jardin premium disponible dès maintenant. Design acier, livrée en France à partir de 15 000 € TTC.',
 };
 
 export default function ProduitPage() {
@@ -8,13 +8,12 @@ export default function ProduitPage() {
     <>
       {/* ===== HERO ===== */}
       <section className="hero-compact">
-        <span className="section-label reveal visible">Nos capsules</span>
+        <span className="section-label reveal visible">Notre produit</span>
         <h1 className="reveal visible reveal-delay-1">
-          Des espaces à vivre,<br />dans votre jardin.
+          Nano S1<br />Votre espace, dans votre jardin.
         </h1>
-        <p className="reveal visible reveal-delay-2">
-          Compactes, design et fonctionnelles — nos capsules transforment votre
-          extérieur en véritables espaces de vie, livrés clé en main.
+        <p className="reveal visible reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
+          Un espace privé, design et fonctionnel, livré clé en main dans votre jardin. Bureau, atelier, salon — à vous de choisir.
         </p>
       </section>
 
@@ -31,181 +30,76 @@ export default function ProduitPage() {
               <div className="product-card-body">
                 <h3 style={{ margin: 0 }}><a href="/nano-s1" style={{ textDecoration: 'none', color: 'inherit' }}>Nano S1</a></h3>
                 <div className="product-subtitle">4.6 m² — Cabine de jardin</div>
-                <p>Un espace privé design et fonctionnel pour le télétravail, la création ou la détente. Structure acier premium.</p>
+                <p>Un espace privé design et fonctionnel pour le télétravail, la création ou la détente. Structure acier premium, isolation polyuréthane, double vitrage LOW-E.</p>
                 <div style={{ marginTop: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                  <span style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--orange)' }}>15 000 €</span>
+                  <span style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--orange)' }}>15 000 € TTC</span>
                   <a href="/nano-s1" className="btn btn-primary" style={{ padding: '6px 16px', fontSize: '0.85rem' }}>
-                    Voir <i className="fa-solid fa-arrow-right"></i>
+                    Voir la fiche <i className="fa-solid fa-arrow-right"></i>
                   </a>
                 </div>
               </div>
             </div>
-
-            {/* Solo */}
-            <div className="product-card reveal">
-              <div className="product-card-image">
-                <span className="coming-badge">À venir</span>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                  <polyline points="9 22 9 12 15 12 15 22"/>
-                </svg>
-              </div>
-              <div className="product-card-body">
-                <h3>Solo</h3>
-                <div className="product-subtitle">~20 m² — Studio</div>
-                <p>
-                  L&apos;essentiel, magnifiquement pensé. Un espace compact et
-                  lumineux, idéal pour un bureau, un studio d&apos;appoint ou
-                  une chambre d&apos;hôtes indépendante.
-                </p>
-                <div style={{ marginTop: 16 }}>
-                  <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiaire)' }}>
-                    🛏️
-                     1 pièce
-                     <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-                     🚿
-                     Salle d&apos;eau
-                     <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-                     🍳
-                     Kitchenette
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Duo */}
-            <div className="product-card reveal reveal-delay-1">
-              <div className="product-card-image">
-                <span className="coming-badge">À venir</span>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                  <polyline points="9 22 9 12 15 12 15 22"/>
-                </svg>
-              </div>
-              <div className="product-card-body">
-                <h3>Duo</h3>
-                <div className="product-subtitle">~30 m² — 2 pièces</div>
-                <p>
-                  Un véritable petit logement avec espace nuit séparé. Parfait
-                  pour accueillir un proche, un locataire ou aménager un
-                  studio de création.
-                </p>
-                <div style={{ marginTop: 16 }}>
-                  <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiaire)' }}>
-                    🛏️
-                     2 pièces
-                     <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-                     🚿
-                     Salle d&apos;eau
-                     <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-                     🍳
-                     Cuisine équipée
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            {/* Family */}
-            <div className="product-card reveal reveal-delay-2">
-              <div className="product-card-image">
-                <span className="coming-badge">À venir</span>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                  <polyline points="9 22 9 12 15 12 15 22"/>
-                </svg>
-              </div>
-              <div className="product-card-body">
-                <h3>Family</h3>
-                <div className="product-subtitle">~45 m² — 3 pièces</div>
-                <p>
-                  Notre plus grand modèle. Un véritable espace de vie familial
-                  avec chambres séparées, salon spacieux et cuisine entièrement
-                  équipée.
-                </p>
-                <div style={{ marginTop: 16 }}>
-                  <span style={{ fontSize: '0.75rem', color: 'var(--text-tertiaire)' }}>
-                    🛏️
-                     3 pièces
-                     <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-                     🚿
-                     Salle d&apos;eau
-                     <span style={{ margin: '0 10px', opacity: 0.3 }}>|</span>
-                     🍳
-                     Cuisine complète
-                  </span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* ===== INFO ===== */}
+      {/* ===== PHOTOS SUPPLÉMENTAIRES ===== */}
       <section className="section section-alt">
-        <div className="container-narrow" style={{ textAlign: 'center' }}>
-          <span className="section-label reveal">En développement</span>
-          <h2 className="reveal reveal-delay-1">Bientôt disponibles</h2>
-          <p className="reveal reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto 24px' }}>
-            Nous sélectionnons les meilleurs modèles pour vous offrir le
-            meilleur rapport qualité-prix. Chaque capsule sera personnalisable
-            selon vos besoins.
-          </p>
-          <p className="reveal reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
-            Inscrivez-vous pour être informé du lancement et recevoir les
-            caractéristiques détaillées de chaque modèle.
-          </p>
-          <div className="divider-center reveal reveal-delay-3" style={{ marginTop: 32 }}></div>
-          <div className="reveal reveal-delay-3" style={{ marginTop: 32 }}>
-            <a href="/contact" className="btn btn-primary">
-              Être informé du lancement
-              <i className="fa-solid fa-arrow-right" style={{ fontSize: '0.8em' }}></i>
-            </a>
+        <div className="container">
+          <div className="section-header" style={{ textAlign: 'center', marginBottom: 40 }}>
+            <span className="section-label reveal">Galerie</span>
+            <h2 className="reveal reveal-delay-1">La Nano S1 en images</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12 }} className="reveal reveal-delay-2">
+            <img src="/nanos1-02.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-03.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-04.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-05.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-06.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
+            <img src="/nanos1-01.jpg" alt="Nano S1" style={{ width: '100%', borderRadius: 8, display: 'block' }} />
           </div>
         </div>
       </section>
 
-      {/* ===== OPTIONS ===== */}
+      {/* ===== CARACTÉRISTIQUES RAPIDES ===== */}
       <section className="section">
-        <div className="container-narrow">
-          <div style={{ textAlign: 'center', marginBottom: 48 }}>
-            <span className="section-label reveal">Personnalisation</span>
-            <h2 className="reveal reveal-delay-1">Une capsule qui vous ressemble</h2>
-            <p className="reveal reveal-delay-2">
-              Finitions, couleurs, agencement, équipements — chaque capsule
-              est unique et adaptée à vos besoins.
-            </p>
+        <div className="container" style={{ textAlign: 'center' }}>
+          <span className="section-label reveal">Caractéristiques</span>
+          <h2 className="reveal reveal-delay-1">Des chiffres qui comptent</h2>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16, marginTop: 40, maxWidth: 700, margin: '40px auto 0' }}>
+            <div className="reveal" style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--orange)' }}>4.6 m²</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-tertiaire)' }}>Surface</div>
+            </div>
+            <div className="reveal reveal-delay-1" style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--orange)' }}>2.15 m</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-tertiaire)' }}>Dimensions</div>
+            </div>
+            <div className="reveal reveal-delay-2" style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--orange)' }}>1 T</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-tertiaire)' }}>Poids</div>
+            </div>
+            <div className="reveal reveal-delay-3" style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '2rem', fontWeight: 700, color: 'var(--orange)' }}>15 k€</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--text-tertiaire)' }}>TTC livré</div>
+            </div>
           </div>
+        </div>
+      </section>
 
-          <div className="features-grid">
-            <div className="feature-card reveal">
-              <div className="feature-icon">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-                </svg>
-              </div>
-              <h3>Finitions au choix</h3>
-              <p>Bois, stratifié, carrelage, peinture — choisissez vos matériaux et vos couleurs.</p>
-            </div>
-            <div className="feature-card reveal reveal-delay-1">
-              <div className="feature-icon">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="4.5"/>
-                  <path d="M12 2v2M12 20v2M2 12h2M20 12h2M5.64 5.64l1.42 1.42M16.95 16.95l1.41 1.41M5.64 18.36l1.42-1.42M16.95 7.05l1.41-1.41"/>
-                </svg>
-              </div>
-              <h3>Autonomie énergétique</h3>
-              <p>Panneaux solaires, récupération d&apos;eau de pluie, isolation renforcée — vivez en toute liberté.</p>
-            </div>
-            <div className="feature-card reveal reveal-delay-2">
-              <div className="feature-icon">
-                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
-                  <line x1="12" y1="18" x2="12.01" y2="18"/>
-                </svg>
-              </div>
-              <h3>Domotique intégrée</h3>
-              <p>Contrôle de l&apos;éclairage, du chauffage et de la sécurité depuis votre smartphone.</p>
-            </div>
+      {/* ===== CTA ===== */}
+      <section className="cta-section section-dark">
+        <div className="container" style={{ textAlign: 'center' }}>
+          <span className="section-label reveal">Contact</span>
+          <h2 className="reveal reveal-delay-1">La Nano S1 vous intéresse ?</h2>
+          <p className="reveal reveal-delay-2">Recevez un devis personnalisé et une documentation complète sous 48h.</p>
+          <div className="reveal reveal-delay-3">
+            <a href="/contact" className="btn btn-white">
+              Demander un devis
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginTop: 1 }}>
+                <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
