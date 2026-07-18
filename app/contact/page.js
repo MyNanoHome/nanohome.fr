@@ -162,16 +162,6 @@ export default function ContactPage() {
               <h4 style={{ marginBottom: 4 }}>Instagram</h4>
               <p style={{ fontSize: '0.85rem' }}>@mynanohome</p>
             </div>
-            <div className="reveal reveal-delay-2" style={{ textAlign: 'center' }}>
-              <div style={{ width: 56, height: 56, borderRadius: 16, background: 'var(--orange-glow)', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px', fontSize: '1.3rem', color: 'var(--orange)' }}>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                  <circle cx="12" cy="10" r="3"/>
-                </svg>
-              </div>
-              <h4 style={{ marginBottom: 4 }}>Basé à</h4>
-              <p style={{ fontSize: '0.85rem' }}>Paris — France</p>
-            </div>
           </div>
         </div>
       </section>
