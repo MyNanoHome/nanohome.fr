@@ -19,10 +19,10 @@ export default function NanoS1Page() {
           <span style={{ fontSize: '0.9rem', color: 'var(--text-tertiaire)', marginLeft: 12 }}>— Livraison France incluse</span>
         </div>
         <div className="hero-actions" style={{ marginTop: 24, justifyContent: 'center' }}>
-          <a href="/contact" className="btn btn-primary">
-            Demande d'informations
+          <a href="#configurateur" className="btn btn-primary">
+            Configurer & commander
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginTop: 1 }}>
-              <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
+              <path d="M7 13l5 5 5-5"/><path d="M7 6l5 5 5-5"/>
             </svg>
           </a>
         </div>
@@ -115,7 +115,9 @@ export default function NanoS1Page() {
       </section>
 
       {/* ===== CONFIGURATEUR ===== */}
-      <Configurator />
+      <section id="configurateur">
+        <Configurator />
+      </section>
 
       {/* ===== CTA ===== */}
       <section className="cta-section section-dark">
