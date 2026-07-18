@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Nos capsules — Espaces premium habitables | NANO HOME',
-  description: 'Découvrez nos capsules design NANO HOME pour vos terrains et jardins. Structure acier premium, livrées clé en main en France. Nano S1 disponible.',
+  description: 'Découvrez nos capsules design NANO HOME pour vos terrains et jardins. Structure acier premium, livrées clé en main en France.',
 };
 
 export default function ProduitPage() {
