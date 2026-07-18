@@ -64,7 +64,7 @@ export default function Configurator() {
                 />
                 <span style={{ fontSize: '0.95rem' }}>{opt.name}</span>
               </div>
-              <span style={{ fontWeight: 600, color: 'var(--orange)', fontSize: '0.9rem' }}>
+              <span style={{ fontWeight: 600, color: 'var(--orange)', fontSize: '0.9rem', whiteSpace: 'nowrap', flexShrink: 0 }}>
                 +{opt.price} €
               </span>
             </label>
