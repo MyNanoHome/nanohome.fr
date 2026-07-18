@@ -11,8 +11,8 @@ export async function POST(request) {
       port: 587,
       secure: false,
       auth: {
-        user: 'contact@mynanohome.fr',
-        pass: 'nanohome2026',
+        user: process.env.SMTP_USER || 'contact@mynanohome.fr',
+        pass: process.env.SMTP_PASS,
       },
     });
 
