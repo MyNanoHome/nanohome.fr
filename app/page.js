@@ -123,7 +123,7 @@ export default function HomePage() {
           <span className="section-label reveal">Nouveau — Disponible</span>
           <h2 className="reveal reveal-delay-1">Nano S1<br />Un espace privé, dans votre jardin</h2>
           <p className="reveal reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto 40px' }}>
-            Un espace privé, design et fonctionnel pour le télétravail, la création ou la détente. Livré et installé en France.
+            Design et fonctionnel pour le télétravail, la création ou la détente. Livré et installé en France.
           </p>
 
           <div className="reveal reveal-delay-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12, marginBottom: 32, maxWidth: 800, margin: '0 auto 32px' }}>

@@ -12,7 +12,7 @@ export default function NanoS1Page() {
           Nano S1<br />Un espace privé, dans votre jardin.
         </h1>
         <p className="reveal visible reveal-delay-2" style={{ maxWidth: 560, margin: '0 auto' }}>
-          Un espace privé, design et fonctionnel pour le télétravail, la création ou la détente. Construction acier premium, livré et installé en France.
+          Design et fonctionnel pour le télétravail, la création ou la détente. Construction acier premium, livré et installé en France.
         </p>
         <div className="reveal visible reveal-delay-3" style={{ marginTop: 32 }}>
           <span style={{ fontSize: '1.6rem', fontWeight: 700, color: 'var(--orange)' }}>15 000 € TTC</span>
