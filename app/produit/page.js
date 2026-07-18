@@ -30,7 +30,7 @@ export default function ProduitPage() {
               </a>
               <div className="product-card-body">
                 <h3 style={{ margin: 0 }}><a href="/nano-s1" style={{ textDecoration: 'none', color: 'inherit' }}>Nano S1</a></h3>
-                <div className="product-subtitle">4.6 m² — Capsule habitable</div>
+                <div className="product-subtitle">4.6 m² — Capsule bureau</div>
                 <p>Un espace privé design et fonctionnel pour le télétravail, la création ou la détente. Structure acier premium, isolation polyuréthane, double vitrage LOW-E.</p>
                 <div style={{ marginTop: 16, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                   <span style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--orange)' }}>15 000 € TTC</span>
