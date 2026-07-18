@@ -106,7 +106,7 @@ export default function Configurator() {
             </a>
             <a href={`/contact?commande=${encodeURIComponent(configSummary)}&total=${total}`}
                className="btn btn-primary" style={{ padding: '12px 28px', fontSize: '0.95rem' }}>
-              <i className="fa-regular fa-cart-shopping"></i> Commander ({total.toLocaleString('fr-FR')} €)
+              <i className="fa-solid fa-cart-shopping"></i> Commander ({total.toLocaleString('fr-FR')} €)
             </a>
           </div>
           <p style={{ fontSize: '0.75rem', color: 'var(--text-tertiaire)', marginTop: 12, opacity: 0.6 }}>
