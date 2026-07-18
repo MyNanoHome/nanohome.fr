@@ -96,7 +96,7 @@ export default function ProduitPage() {
           <p className="reveal reveal-delay-2">Une question, un projet ? Contactez-nous et nous vous répondrons sous 48h.</p>
           <div className="reveal reveal-delay-3">
             <a href="/contact" className="btn btn-white">
-              Nous contacter
+              Demande d'informations
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginTop: 1 }}>
                 <path d="M5 12h14"/><path d="M12 5l7 7-7 7"/>
               </svg>

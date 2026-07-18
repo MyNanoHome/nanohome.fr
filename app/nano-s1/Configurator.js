@@ -102,7 +102,7 @@ export default function Configurator() {
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <a href={`/contact?config=${encodeURIComponent(configSummary)}&total=${total}`}
                className="btn btn-outline" style={{ padding: '12px 28px', fontSize: '0.95rem' }}>
-              <i className="fa-regular fa-envelope"></i> Nous contacter
+              <i className="fa-regular fa-envelope"></i> Demande d'informations
             </a>
             <a href={`/contact?commande=${encodeURIComponent(configSummary)}&total=${total}`}
                className="btn btn-primary" style={{ padding: '12px 28px', fontSize: '0.95rem' }}>
